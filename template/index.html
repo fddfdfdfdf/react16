@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>React + ReactRouter Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.6.1/core.js"></script>
+    <script type="text/javascript">
+        (function () {
+            Object.setPrototypeOf = Object.setPrototypeOf || ({__proto__: []} instanceof Array ? setProtoOf : mixinProperties);
+            function setProtoOf(obj, proto) {
+                obj.__proto__ = proto; return obj;
+            }
+            function mixinProperties(obj, proto) {
+                for (var prop in proto) {
+                    if (!obj.hasOwnProperty(prop)) { obj[prop] = proto[prop];
+                    }
+                }
+                return obj;
+            }
+        })()
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>

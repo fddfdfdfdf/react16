@@ -1,0 +1,15 @@
+{
+    "plugins": [
+        "transform-async-to-generator",
+        "transform-strict-mode",
+        "transform-object-assign",
+        "transform-decorators-legacy",
+        "react-hot-loader/babel",
+        "syntax-dynamic-import"
+    ],
+    "presets": [
+        "react",
+        "stage-0",
+        "env"
+    ]
+}
